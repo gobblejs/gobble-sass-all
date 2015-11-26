@@ -1,13 +1,12 @@
 {
-  "name": "gobble-sass",
-  "version": "0.5.0",
-  "description": "Compile SASS files with gobble",
-  "author": "Rich Harris",
-  "license": "MIT",
-  "repository": "https://github.com/gobblejs/gobble-sass",
+  "name": "gobble-sass-all",
+  "version": "0.6.0",
+  "description": "Compile all SASS files with gobble",
+  "authors": ["Rich Harris", "Iván Sánchez Ortega <ivan@sanchezortega.es>"],
+  "license": "Beerware",
+  "repository": "https://github.com/ivansanchez/gobble-sass-all",
   "dependencies": {
-    "node-sass": "^3.0.0",
-    "sander": "^0.3.3"
+    "node-sass": "^3.0.0"
   },
   "keywords": [
     "gobble",
@@ -16,12 +15,5 @@
   "files": [
     "index.js",
     "README.md"
-  ],
-  "devDependencies": {
-    "mocha": "^2.2.4"
-  },
-  "scripts": {
-    "test": "mocha",
-    "prepublish": "npm test"
-  }
+  ]
 }
