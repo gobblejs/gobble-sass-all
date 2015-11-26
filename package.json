@@ -1,8 +1,11 @@
 {
   "name": "gobble-sass-all",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Compile all SASS files with gobble",
-  "authors": ["Rich Harris", "Iván Sánchez Ortega <ivan@sanchezortega.es>"],
+  "authors": [
+    "Rich Harris",
+    "Iván Sánchez Ortega <ivan@sanchezortega.es>"
+  ],
   "license": "Beerware",
   "repository": "https://github.com/ivansanchez/gobble-sass-all",
   "dependencies": {
