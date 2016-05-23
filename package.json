@@ -9,7 +9,7 @@
   "license": "Beerware",
   "repository": "https://github.com/ivansanchez/gobble-sass-all",
   "dependencies": {
-    "node-sass": "^3.0.0"
+    "node-sass": "^3.7.0"
   },
   "keywords": [
     "gobble",
