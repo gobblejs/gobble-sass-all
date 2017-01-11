@@ -6,16 +6,22 @@ module.exports = function sassAll(input, options) {
 	options.sourceMap = 'foobar.map';
 
 	var compiled = sass.renderSync(options);
+	var out;
 
-	var out = {
-		code: compiled.css.toString().replace('/*# sourceMappingURL=foobar.map */',''),
-		map: compiled.map.toString()
-	};
-
+	if (options.omitSourceMapUrl) {
+		out = {
+			code: compiled.css.toString()
+		};
+	} else {
+		out = {
+			code: compiled.css.toString().replace('/*# sourceMappingURL=foobar.map */',''),
+			map: compiled.map.toString()
+		};
+	}
 	return out;
 };
 
 module.exports.defaults = {
-	accept: ".sass",
+	accept: [".sass", ".scss"],
 	ext: ".css"
 };

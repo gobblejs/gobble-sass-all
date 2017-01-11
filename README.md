@@ -17,7 +17,7 @@ var gobble = require( 'gobble' );
 module.exports = gobble( 'src/styles' ).transform( 'sass-all' );
 ```
 
-That will transform all `*.sass` files in `src/styles` into `*.css` files.
+That will transform all `*.sass` and `*.scss` files in `src/styles` into `*.css` files.
 
 Optionally, specify a second argument to pass options to [node-sass](https://github.com/sass/node-sass), for example:
 
@@ -29,6 +29,8 @@ module.exports = gobble( 'src/styles' ).transform( 'sass-all', {
 	sourceComments: true
 });
 ```
+
+To omit sourcemap generation, set the node-sass' option `omitSourceMapUrl` to `true`.
 
 ## License
 

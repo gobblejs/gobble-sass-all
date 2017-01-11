@@ -1,6 +1,6 @@
 {
   "name": "gobble-sass-all",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Compile all SASS files with gobble",
   "authors": [
     "Rich Harris",
@@ -9,7 +9,7 @@
   "license": "Beerware",
   "repository": "https://github.com/ivansanchez/gobble-sass-all",
   "dependencies": {
-    "node-sass": "^3.10.1"
+    "node-sass": "^4.2.0"
   },
   "keywords": [
     "gobble",

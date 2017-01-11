@@ -1,5 +1,10 @@
 # changelog
 
+## 0.9.0 (2017-01-11)
+
+* Allow disabling sourcemaps
+* Update node-sass to 4.2.0
+
 ## 0.5.0
 
 * Upgrade to node-sass 3.0.0
@@ -28,6 +33,6 @@
 * Sourcemaps are generated automatically
 * Updated to match gobble 0.6.0 API
 
-## 0.2.0
+## 0.2.0
 
 * Started maintaining a changelog
